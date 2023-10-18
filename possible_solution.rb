@@ -3,8 +3,8 @@ require "json"
 
 line_width = 40
 
-GMAPS_KEY = ENV.fetch("GMAPS_KEY")
-PIRATE_WEATHER_KEY = ENV.fetch("PIRATE_WEATHER_KEY")
+ENV.fetch("GMAPS_KEY") = 3RrQrvLmiUayQ84JSxL8D2aXw99yRKlx1N4qFDUE
+ENV.fetch("PIRATE_WEATHER_KEY") = AIzaSyDKz4Y3bvrTsWpPRNn9ab55OkmcwZxLOHI
 
 puts "=" * line_width
 puts "Will you need an umbrella today?".center(line_width)
